@@ -1,7 +1,9 @@
 @import url(style/avatar.css);
+@import url(style/menu.css);
 
 :root {
-    --cor-de-fundo:rgba(255, 255, 255, 1);
+    --cor-de-fundo: rgba(246, 246, 246, 1);
+    --cor-branca:rgba(255, 255, 255, 1);
     --fonte-principal: 'Montserrat', sans-serif;
     --cor-preta: #464646;
     --cor-cinza: #A3A3A3;
@@ -14,4 +16,12 @@ body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
     font-size: 16px;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
