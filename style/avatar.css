@@ -1,0 +1,28 @@
+.avatar__titulo {
+    color: var(--cor-preta);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.avatar__texto {
+    color: var(--cor-cinza);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container__avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2em 0 2em 1em;
+    gap: 1em;
+}
+
+.avatar__textos {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__avatar {
+    position: fixed;
+}

@@ -1,0 +1,17 @@
+@import url(style/avatar.css);
+
+:root {
+    --cor-de-fundo:rgba(255, 255, 255, 1);
+    --fonte-principal: 'Montserrat', sans-serif;
+    --cor-preta: #464646;
+    --cor-cinza: #A3A3A3;
+    --cor-laranja: #FFB050;
+    --cor-borda: #ECECEC;
+    --cor-azul: #4894FF;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+}
