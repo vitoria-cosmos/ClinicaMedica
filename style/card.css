@@ -1,0 +1,103 @@
+.container__card__primeiro {
+    background-color: var(--cor-branca);
+    border-radius: 10px;
+    margin: 1.5em;
+    padding: 1em;
+}
+
+.primeira__divisao {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding-bottom: 1em;
+}
+
+.conatiner__card__perfil {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.divisao__camera {
+    display: flex;
+    flex-direction: row;
+    gap: .5em;
+}
+
+.segunda__divisao {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    padding-top: 1em;
+}
+
+.card__botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.card__nome {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--cor-preta);
+}
+
+.titulo__cards {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--cor-preta);
+    padding-left: 1em;
+
+}
+
+.card__consulta {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--cor-cinza);
+}
+
+.card__horarios {
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--cor-preta);
+}
+
+.botao__card {
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.botao__laranja {
+    background-color: var(--cor-laranja);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--cor-branca);
+    border: none;
+}
+
+.botao__branca {
+    background-color: transparent;
+    border: 2px solid var(--cor-borda);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--cor-preta);
+}
+
+.linha_divisao {
+    margin: 0;
+    width: 100%;
+}
+
+.card__video {
+    margin-left: 5em;
+}
+
+
+

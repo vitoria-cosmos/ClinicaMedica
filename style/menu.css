@@ -6,7 +6,7 @@
     right: 0;
     margin: auto;
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: var(--cor-branca);
     border-radius: .8rem;
     padding: .5rem;
     align-items: center;

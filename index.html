@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="cabecalho">
+    <div class="cabecalho">
         <nav class="conteiner__cabecalho">
             <div class="nav__menu">
                 <ul class="nav__lista">
@@ -26,23 +26,56 @@
         
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link"><img src="assets/menu icone.png" alt="ícone de relatórios"><span>Menu</span></a>
-                        
-        
+                        <a href="#" class="nav__link"><img src="assets/menu icone.png" alt="ícone de relatórios"><span>Menu</span></a>       
                     </li>
-                </ul>
-    
+                </ul>   
+            </div>
+        </nav>
+    </div>
+
+    <section class="sessao__avatar">
+        <div class="container__avatar">
+            <img src="assets/Avatar.svg" alt="Avatar da Sônia">
+            <div class="avatar__textos">
+                <span class="avatar__titulo">Olá, Sônia</span>
+                <span class="avatar__texto">Mais 4 consultas hoje</span>
             </div>
 
-        </nav>
-        
+        </div>
+    </section>
 
-    </header>
-    <section class="container__avatar">
-        <img src="assets/Avatar.svg" alt="Avatar da Sônia">
-        <div class="avatar__textos">
-            <span class="avatar__titulo">Olá, Sônia</span>
-            <span class="avatar__texto">Mais 4 consultas hoje</span>
+    <div style="margin-bottom: 8em;"></div>
+
+    <section class="sessao__cards">
+        <h2 class="titulo__cards">Hoje</h2>
+        <div class="container__cards">
+
+            <div class="container__card__primeiro">
+                
+                <div class="primeira__divisao">
+                    <img src="assets/luciana.svg" alt="Avatar da Luciana">
+                    <div class="conatiner__card__perfil">
+                        <span class="card__nome">Luciana Dias</span>
+                        <div class="divisao__camera">
+                            <img class="card__icone" src="assets/Camera.png" alt="icone da camera">
+                            <span class="card__consulta">Consulta remota</span>
+                        </div>
+                    </div>
+                    <img class="card__video" src="assets/video.svg" alt="icone de video">
+                </div>
+
+                <hr class="linha_divisao">
+
+                <div class="segunda__divisao">
+                    <span class="card__horarios">14:00 - 15:00 (1 hora)</span>
+                    <div class="card__botoes">
+                        <button class="botao__card botao__laranja">Ligar por vídeo</button>
+                        <button class="botao__card botao__branca">Ligar por áudio</button>
+                    </div>        
+                </div>
+               
+            </div>
+                       
         </div>
     </section>
     <main>

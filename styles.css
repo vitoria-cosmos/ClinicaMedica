@@ -1,5 +1,6 @@
 @import url(style/avatar.css);
 @import url(style/menu.css);
+@import url(style/card.css);
 
 :root {
     --cor-de-fundo: rgba(246, 246, 246, 1);
@@ -16,6 +17,7 @@ body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
     font-size: 16px;
+    height: 2000px;
 }
 
 * {
