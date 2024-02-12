@@ -99,5 +99,16 @@
     margin-left: 5em;
 }
 
+.botao__azul {
+    background-color: var(--cor-azul);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--cor-branca);
+    border: none;
+    width: 100%;
+}
+
+
 
 
